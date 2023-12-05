@@ -18,9 +18,9 @@ function Navigation() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   return (
-    <Navbar expand="lg"  className="bg-body-tertiary">
-    <Container fluid>
-    <Navbar.Brand href="#">IMDB V2.0</Navbar.Brand>
+    <Navbar expand="lg"  className="bg-body-tertiary" data-bs-theme="dark"  >
+    <Container fluid >
+    <Navbar.Brand href="#" style={{color:"gold"}}>IMDB V2.0</Navbar.Brand>
     <div className='navMenu' onClick={handleShow}>
     <GiHamburgerMenu  style={{fontSize:"2rem"}}></GiHamburgerMenu>
     <label style={{ fontSize: "18px", fontWeight: "bold"}}>Menu</label>
@@ -35,7 +35,6 @@ function Navigation() {
             className="me-2"
             aria-label="Search"
           />
-          <Button variant="outline-success">Search</Button>
         </Form>
       
  
@@ -69,9 +68,9 @@ function Navigation() {
           navbarScroll
   
         >
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#" disabled>
-            Link
+          <Nav.Link href="#action1" style={{color:"white"}}>Sign In</Nav.Link>
+          <Nav.Link href="#" disabled style={{color:"white"}}>
+            Sign Up
           </Nav.Link>
         </Nav>
 

@@ -7,15 +7,17 @@ function App() {
 
 
   return (
-    <div style={{width:"80vw", margin:"auto"  ,backgroundColor:"black"}}>
-      {/*  Navbar */}
-      <Navigation/>
+    <div style={{backgroundColor:"black"}}>
+      <div style={{width:"80vw", margin:"auto"  ,backgroundColor:"black",height:"100vh"}}>
+          {/*  Navbar */}
+          <Navigation/>
 
-      {/*  Routes */}
-      <Routes>
-        <Route path="/home" element={<HomePage />} />
-      </Routes>
-  </div>
+          {/*  Routes */}
+          <Routes>
+            <Route path="/home" element={<HomePage />} />
+          </Routes>
+      </div>
+    </div>
   );
 }
 
