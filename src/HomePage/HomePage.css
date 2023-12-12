@@ -1,0 +1,11 @@
+.carouselCards{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.carouselItemDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
