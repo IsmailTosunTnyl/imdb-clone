@@ -1,0 +1,14 @@
+.CardButtonIcons{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+
+}
+.cardButton{
+    width: 50%;
+    /*
+    background-color:rgba(255, 0, 0, 0); */
+}
+.signUpButton{
+    background-color: gold;
+    color: black;
+}

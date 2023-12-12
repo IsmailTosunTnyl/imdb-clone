@@ -4,5 +4,20 @@
     display: flex;
     align-items: center;
     margin-right: 14px;
-    
+}
+
+.menuList{
+    background-color:rgba(255, 0, 0, 0);
+    border:0px
+}
+.menuListTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.menuListTitleIcon{
+    font-size: 2rem;
+
 }
